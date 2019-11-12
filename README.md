@@ -12,7 +12,7 @@ I implemented user signup and login using Google's Firebase authentication. Duri
 
 This is what the signup process looks like:
 
-[sign up demo]
+![](link_signup_demo.gif)
 
 
 Choosing the photo was implemented using a `handlePlusPhoto()` method which instantiates an UIImagePickerController. Here is a code snippet of the method:
@@ -49,7 +49,7 @@ When the user signs up, the photo is then saved to Firebase Storage and the user
 
 Link deploys a Firebase Realtime NoSQL Database to allow eager-loading of user events and invitations data, resulting in minimal loading times and fluid user experience. When a user creates a new event, it is stored to the Firebase Database. Here is what that looks like:
 
-[gif of event creation]
+![](link_event_create_demo.gif)
 
 I was able to fetch the events, or "Links", using a `fetchOrderedLinks()` method which retreives the relevant data.
 
